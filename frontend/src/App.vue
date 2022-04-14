@@ -1,24 +1,16 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="green lighten-1"
-      dark
-    >
-      
-    </v-app-bar>
-
     <v-main>
-      <Table/>
+      <Table />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Table from './components/Table';
+import Table from "./components/Table";
 
 export default {
-  name: 'App',
+  name: "App",
 
   components: {
     Table,
